@@ -1,0 +1,36 @@
+<p>configuration-form works!</p>
+<form (ngSubmit)="onSubmit()" #configForm="ngForm">
+  <label for="totalTickets">Total Tickets:</label>
+  <input id="totalTickets" name="totalTickets" ngModel required />
+
+  <label for="ticketsReleaseRate">Tickets Release Rate:</label>
+  <input id="ticketsReleaseRate" name="ticketsReleaseRate" ngModel required />
+
+  <label for="customerRetrievalRate">Customer Retrieval Rate:</label>
+  <input
+    id="customerRetrievalRate"
+    name="customerRetrievalRate"
+    ngModel
+    required
+  />
+
+  <label for="maxTicketCapacity">Max Ticket Capacity:</label>
+  <input id="maxTicketCapacity" name="maxTicketCapacity" ngModel required />
+
+  <label for="numberOfVendors">Number of Vendors:</label>
+  <input id="numberOfVendors" name="numberOfVendors" ngModel required />
+
+  <label for="numberOfCustomers">Number of Customers:</label>
+  <input id="numberOfCustomers" name="numberOfCustomers" ngModel required />
+
+  <label for="maximumTicketsCanBePurchased">Max Tickets/Customer:</label>
+  <input
+    id="maximumTicketsCanBePurchased"
+    name="maximumTicketsCanBePurchased"
+    ngModel
+    required
+  />
+
+  <button type="submit">Start Simulation</button>
+  <button type="button" (click)="stopSimulation()">Stop Simulation</button>
+</form>

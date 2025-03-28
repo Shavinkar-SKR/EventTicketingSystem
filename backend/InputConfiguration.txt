@@ -1,0 +1,7 @@
+Total tickets: 100
+Tickets Release Rate: 4
+Customer Retrieval Rate: 7
+Maximum Ticket Capacity: 10
+Number of Customers: 12
+Number of Vendors: 10
+Maximum quantity of tickets can be purchased by each customer: 8
