@@ -1,1 +1,1 @@
-[![](https://github-readme-stats.vercel.app/api?username=Shavinkar-SKR&theme=dark&show_icons=true)](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=shadow_red)
+
